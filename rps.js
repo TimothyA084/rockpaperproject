@@ -2,37 +2,37 @@ console.log("test the script is active")
 
 // functions 
 
-function computerPlay(){
+// function computerPlay(){
 
-}
+// }
 
 function computerSelection(){
 
-    var cplay=(math.random() * 3)
+    var cplay=(Math.floor(Math.random() *3) +1);
 
     if (cplay == 1)
-    return "rock"
+    console.log("rock")
     
     else if (cplay == 2)
-    return "paper"
+    console.log("paper")
     
-    else (cplay == 3)
-    return "scissors"
+    else if (cplay == 3)
+    console.log( "scissors")
+ }
+computerSelection();
 
-}
+// function playerSelection(){
 
-function playerSelection(){
+    // var pchoice = prompt("Choose rock, paper, or scissors.")
+// }
 
-    var pchoice = prompt("Choose rock, paper, or scissors.")
-}
+// function playRound(){
 
-function playRound(){
-
-    if (playerSelection == computerSelection)
-    return "it is a draw"
+//  if (playerSelection == computerSelection)
+    // return "it is a draw"
     
-}
+// }
 
-function game(){
+// function game(){
 
-}
+// }
